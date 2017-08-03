@@ -1,8 +1,8 @@
 package com.twu.biblioteca.Controller;
 
-public class WelcomeController {
+public class MessageController {
 
-    public String welcomeMessage (){
+    public String showWelcomeMessage(){
         String welcomeText= "Welcome to the bangalore biblioteca!";
         return welcomeText;
     }
