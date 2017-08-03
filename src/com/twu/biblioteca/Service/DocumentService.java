@@ -32,11 +32,11 @@ public class DocumentService {
         return true;
     }
 
-    public List<Document> getOnlyBooksOfLibrary(List<Document> documents) {
+    public List<Document> getOnlyBooksOfLibrary() {
         ArrayList<Document> books = new ArrayList<Document>();
         try {
             if (documentRepository.getDocuments() != null && documentRepository.getDocuments().size() == 0) {
-                for (Document document : documents) {
+                for (Document document : documentRepository.getDocuments()) {
                     if (document.getType() == EnumTypeOfDocument.BOOK) {
                         books.add(document);
                     }
@@ -49,6 +49,25 @@ public class DocumentService {
         }
         return books;
     }
+
+    public List<Document> getOnlyBooksOfLibrary(List<Document> documents) {
+        ArrayList<Document> books = new ArrayList<Document>();
+        try {
+            if (documents != null && documents.size() == 0) {
+                for (Document document : documentRepository.getDocuments()) {
+                    if (document.getType() == EnumTypeOfDocument.BOOK) {
+                        books.add(document);
+                    }
+                }
+            } else {
+                throw new EmptyDocumentListException();
+            }
+        } catch (EmptyDocumentListException e) {
+            e.getMessage();
+        }
+        return books;
+    }
+
 
     public DocumentRepository getDocumentRepository() {
         return documentRepository;
