@@ -14,6 +14,20 @@ public class DocumentRepository {
         documents = new ArrayList<Document>();
     }
 
+    public boolean addDocument(Document document){
+        if (this.documents.add(document)){
+            return true;
+        }
+        return false;
+    }
+
+    public boolean removeDocument(Document document){
+        if (this.documents.remove(document)){
+            return true;
+        }
+        return false;
+    }
+
     public List<Document> listOfDocumentsThatContainsOnyBooksMock(){
         ArrayList<Document> mockList = new ArrayList<Document>();
         Document book1 = new Document("Book Test 1", EnumTypeOfDocument.BOOK,"Izael", 2017);
@@ -36,5 +50,12 @@ public class DocumentRepository {
         return mockList;
     }
 
+    public List<Document> getEmptyListMock(){
+        return new ArrayList<Document>();
+    }
+
+    public List<Document> getDocuments() {
+        return documents;
+    }
 }
 

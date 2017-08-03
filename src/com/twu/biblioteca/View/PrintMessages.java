@@ -4,7 +4,7 @@ import com.twu.biblioteca.Controller.MessageController;
 
 public class PrintMessages {
 
-    public void ShowWelcomeMessage(){
+    public void showWelcomeMessage(){
         MessageController messageController = new MessageController();
         System.out.println(messageController.showWelcomeMessage());
     }
