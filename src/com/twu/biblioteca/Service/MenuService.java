@@ -32,6 +32,7 @@ public class MenuService {
         menuText += "Choice the option for visualization \n";
         menuText += "1 - List of Books \n";
         menuText += "2 - List of Movies \n";
+        menuText += "3 - Exit \n";
         menuText += "Enter the number of desired option: \n";
         return menuText;
     }

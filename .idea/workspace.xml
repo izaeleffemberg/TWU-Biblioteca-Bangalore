@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14c38e01-2f5d-4c4c-b99c-45c274cf2c47" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Service/MenuService.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Service/MenuService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/BooksTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BooksTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="MenuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+            <state relative-caret-position="355">
+              <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
@@ -84,8 +82,8 @@
       <file leaf-file-name="MenuService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Service/MenuService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="343">
+              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
@@ -149,9 +147,9 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Exception/optionChosenByTheUserInvalid.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Service/DocumentService.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Service/MenuService.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BooksTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Service/MenuService.java" />
       </list>
     </option>
   </component>
@@ -389,26 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MenuTest.GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionContainsInListOfOptionsOfMenu">
-    <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TWU-Biblioteca-Bangalore" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MenuTest.GivenAListOfOptinsInMenu_WhenIAskMenuService_ThenWillVerifyIfOptionsOfMenuContainsTheExitOption">
     <configuration name="BooksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -447,6 +426,31 @@
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BooksTest" />
       <option name="METHOD_NAME" value="GivenAListOfDocuments_WhenIAskTheDocumentView_ThenItWillPrintAnEmptyListOfBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MenuTest.GivenAListOfOptinsInMenu_WhenIAskMenuService_ThenWillVerifyIfOptionsOfMenuContainsTheExitOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TWU-Biblioteca-Bangalore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MenuTest" />
+      <option name="METHOD_NAME" value="GivenAListOfOptinsInMenu_WhenIAskMenuService_ThenWillVerifyIfOptionsOfMenuContainsTheExitOption" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -591,19 +595,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BooksTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BooksTest.GivenAListOfDocuments_WhenIAskTheDocumentView_ThenItWillPrintAnEmptyListOfBooks" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenInvalidInputOfUser_WhenIAskMenuController_ThenWillThrowTheExceptionOfOptionInvalid" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionContainsInListOfOptionsOfMenu" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BooksTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BooksTest.GivenAListOfDocuments_WhenIAskTheDocumentView_ThenItWillPrintAnEmptyListOfBooks" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenInvalidInputOfUser_WhenIAskMenuController_ThenWillThrowTheExceptionOfOptionInvalid" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionContainsInListOfOptionsOfMenu" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenAListOfOptinsInMenu_WhenIAskMenuService_ThenWillVerifyIfOptionsOfMenuContainsTheExitOption" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionContainsInListOfOptionsOfMenu" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenInvalidInputOfUser_WhenIAskMenuController_ThenWillThrowTheExceptionOfOptionInvalid" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BooksTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BooksTest.GivenAListOfDocuments_WhenIAskTheDocumentView_ThenItWillPrintAnEmptyListOfBooks" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenAListOfOptinsInMenu_WhenIAskMenuService_ThenWillVerifyIfOptionsOfMenuContainsTheExitOption" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionContainsInListOfOptionsOfMenu" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest.GivenInvalidInputOfUser_WhenIAskMenuController_ThenWillThrowTheExceptionOfOptionInvalid" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BooksTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BooksTest.GivenAListOfDocuments_WhenIAskTheDocumentView_ThenItWillPrintAnEmptyListOfBooks" />
       </list>
     </recent_temporary>
   </component>
@@ -626,19 +630,13 @@
       <option name="presentableId" value="Default" />
       <updated>1501618705023</updated>
       <workItem from="1501618706312" duration="696000" />
-      <workItem from="1501625495053" duration="43246000" />
+      <workItem from="1501625495053" duration="43971000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BooksTest - 2017.08.03 at 16h 16m 22s.xml">
-      <configuration name="BooksTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BooksTest - 2017.08.03 at 18h 35m 44s.xml">
       <configuration name="BooksTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BooksTest_verifyListOfBooks - 2017.08.03 at 14h 54m 39s.xml">
-      <configuration name="BooksTest.verifyListOfBooks" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BooksTest_verifyListOfBooks - 2017.08.03 at 16h 16m 24s.xml">
       <configuration name="BooksTest.verifyListOfBooks" configurationId="JUnit" />
@@ -652,6 +650,12 @@
     <history-entry file="BooksTest_verifyListOfBooks - 2017.08.04 at 11h 35m 34s.xml">
       <configuration name="BooksTest.verifyListOfBooks" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BooksTest_verifyListOfBooks - 2017.08.04 at 11h 53m 20s.xml">
+      <configuration name="BooksTest.verifyListOfBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_GivenAListOfOptinsInMenu_WhenIAskMenuService_ThenWillVerifyIfOptionsOfMenuContainsTheExitOption - 2017.08.04 at 11h 53m 18s.xml">
+      <configuration name="MenuTest.GivenAListOfOptinsInMenu_WhenIAskMenuService_ThenWillVerifyIfOptionsOfMenuContainsTheExitOption" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MenuTest_GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionContainsInListOfOptionsOfMenu - 2017.08.04 at 11h 35m 32s.xml">
       <configuration name="MenuTest.GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionContainsInListOfOptionsOfMenu" configurationId="JUnit" />
     </history-entry>
@@ -663,7 +667,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43942000" />
+    <option name="totallyTimeSpent" value="44667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -982,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Service/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="343">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#278#279#0" expanded="true" />
@@ -1024,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        <state relative-caret-position="355">
+          <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />

@@ -26,13 +26,19 @@ public class MenuTest {
         this.menuService.returnListChosenByTheUser(invalidOptionMock);
     }
 
-    @Test
-    public void GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionContainsInListOfOptionsOfMenu(){
+    @Test // the name of method is an possible codesemlls
+    public void GivenAListOfOptionsInMenu_WhenIAskMenuService_ThenTheMenuServiceWillVerifyIfTheOptionChosenByTheUserContainsInListOfOptionsOfMenu(){
         String menuOutput = this.menuService.returnMenuOptions();
         Integer optionChosenByTheUser = 1; // chosen list of books
         boolean verifyIfTheMenuContainsTheOption = menuOutput.contains(optionChosenByTheUser.toString());
         assertEquals(true, verifyIfTheMenuContainsTheOption);
+    }
 
+    @Test
+    public void GivenAListOfOptinsInMenu_WhenIAskMenuService_ThenWillVerifyIfOptionsOfMenuContainsTheExitOption(){
+        String menuOutput = this.menuService.returnMenuOptions();
+        boolean verifyIfTheMenuContainsTheOption = menuOutput.contains("Exit");
+        assertEquals(true, verifyIfTheMenuContainsTheOption);
     }
 
 
