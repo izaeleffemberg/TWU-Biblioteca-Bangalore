@@ -27,5 +27,14 @@ public class MenuService {
         return listChosenByTheUser;
     }
 
+    public String returnMenuOptions(){
+        String menuText = " -- Menu -- \n";
+        menuText += "Choice the option for visualization \n";
+        menuText += "1 - List of Books \n";
+        menuText += "2 - List of Movies \n";
+        menuText += "Enter the number of desired option: \n";
+        return menuText;
+    }
+
 }
 
